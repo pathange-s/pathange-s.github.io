@@ -1,0 +1,182 @@
+body {
+    background-color: black;
+
+    text-align: center;
+    font-size: 300%;
+    display: inline-block;
+    margin-left: 38%;
+    color: white;
+    margin-bottom: -1%;
+    font-family: 'Open Sans', sans-serif;
+    
+
+}
+@media screen and (max-width: 500px) {
+    body{
+        align-items: center;
+        margin-left: -10%;
+        
+        justify-content: space-evenly;
+        
+    }
+}
+
+
+button {
+
+    border: 2px solid white;
+    display: inline-block;
+    margin-bottom: 0px;
+    border-radius: 6px;
+    font-size: 100%;
+    justify-content: space-evenly;
+
+    font-weight: bolder;
+    padding: 12px;
+    margin: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+
+
+    background-color: #ffffff;
+
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.stars {
+    height: 50px;
+    margin-top: -10%;
+    
+}
+
+.image {
+
+    margin-top: -60%;
+    margin-bottom: -25%;
+    
+}
+
+.diva:hover .button_links {
+    color: #ffffff;
+
+}
+
+button:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: black;
+    border: 2.5px solid aqua;
+}
+
+
+p {
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: -10px;
+    font-size: 30px;
+    padding: 20px;
+
+}
+
+hr {
+    margin-top: 55px;
+    margin-bottom: -50px;
+}
+
+h3 {
+    margin-bottom: 0%;
+    
+}
+
+.stars {
+    margin-bottom: 10px;
+}
+
+#img1:hover {
+    transform: scale(1.3);
+}
+
+#img2:hover {
+    transform: scale(1.3);
+}
+
+#img3:hover {
+    transform: scale(1.3);
+}
+
+#img4:hover {
+    transform: scale(1.3);
+}
+
+.blink {
+    animation: blink 2s steps(1, end) infinite;
+
+    animation-delay: 0s;
+}
+
+.blink2 {
+
+    animation: blink 1s steps(1, end) infinite;
+    animation-delay: 2s;
+
+
+}
+
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+        color: rgb(111, 255, 255);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.dot {
+    height: 6px;
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    display: inline-block;
+
+}
+
+.dot2 {
+    height: 6px;
+    width: 6px;
+    background-color: aqua;
+    border-radius: 100%;
+    display: inline-block;
+
+}
+
+.flex-container {
+    display: flexbox
+}
+
+.flex-container>div {
+    background-color: black;
+    margin: 0cm;
+    padding: 0px;
+    align-items: center;
+
+}
+
+#tags {
+display: flex;
+flex-direction: column;
+}
